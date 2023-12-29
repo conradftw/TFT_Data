@@ -33,7 +33,7 @@
     },
     "aphelios": {
         "StunDuration": [1.5, 1.5, 2.0],
-        "HeadlinerAttackDamage": 0.2,
+        "HeadlinerAttackDamage": [0.2],
         "ADRatio": [7.25],
         "Range": [1.0],
         "APMultiplier": [0.1],

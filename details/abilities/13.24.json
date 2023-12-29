@@ -135,7 +135,7 @@
     },
     "jhin": {
         "PhysicalDamageRatio": [0.6, 0.6, 4.44, 4.44],
-        "RIFLES_PER_CAST": [1.0, 1.0, 4.0],
+        "RIFLES_PER_CAST": [1.0, 1.0, 4.0, 4.0],
         "HeadlinerAttackDamage": [0.05],
         "MagicalDamageBase": [0.15, 0.25, 1.44, 1.44],
         "EmpoweredShotBonusTooltipOnly": [2.0],

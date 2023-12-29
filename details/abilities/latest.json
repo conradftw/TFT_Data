@@ -106,7 +106,7 @@
         "DAMAGE": [1.5, 2.25, 3.5],
         "DURATION": [2.0],
         "CCDuration": [3.0],
-        "HEALING": [5.0, 5.75, 6.5],
+        "HEALING": [500.0, 575.0, 650.0],
         "HeadlinerDamageMod": [0.15],
         "HeadlinerDR": [0.08]
     },
@@ -276,7 +276,8 @@
         "TargetNumber": [3.0],
         "ArmorAndMR": [100.0],
         "ADRatio": [2.4, 2.4, 5.0],
-        "Duration": [0.06],
+        "Duration": [6.0],
+        "PercentHealthHeal": [0.06],
         "HeadlinerHealth": [150.0],
         "HeadlinerAttackDamage": [0.1]
     },
@@ -343,7 +344,7 @@
         "HeadlinerHealth": [225.0]
     },
     "taric": {
-        "SHIELD_BASE": [2.4, 2.9, 3.3],
+        "SHIELD_BASE": [240.0, 290.0, 330.0],
         "SHIELD_RATIO": [0.06],
         "DURATION": [4.0],
         "BONUS_DAMAGE_BASE": [1.0, 1.5, 2.25],
@@ -357,7 +358,7 @@
         "FlatHeal": [250.0, 300.0, 600.0],
         "HealingScale": [0.5],
         "HeadlinerHealth": [100.0],
-        "HeadlinerManarReduction": [25.0]
+        "HeadlinerManaReduction": [25.0]
     },
     "twistedfate": {
         "BaseDamage": [0.5, 0.75, 2.25],
@@ -400,7 +401,7 @@
     "viego": {
         "SlamDamage": [2.0, 2.0, 4.0],
         "BonusAttackDamage": [1.7, 1.7, 3.4],
-        "MarkDuration": [5.0],
+        "MarkDuration": [0.05],
         "MarkBonusDamage": [0.1],
         "HeadlinerHealth": [150.0],
         "HeadlinerAttackDamage": [0.1]

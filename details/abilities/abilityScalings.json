@@ -1,0 +1,458 @@
+{
+    "ahri": {
+        "damage": [3.2, 4.8, 16.0],
+        "kissDamage": [4.8, 7.2, 24.0],
+        "HeadlinerAbilityPower": [15.0]
+    },
+    "akali": {
+        "Base_Dash_Damage": [0.8, 1.2, 4.0],
+        "Base_Strike_Damage": [1.9, 1.9, 3.8],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerAttackSpeed": [0.1]
+    },
+    "akali_truedamage": {
+        "BASE_DAMAGE": [2.75, 2.75, 5.5],
+        "BLING_HEAL_PERCENT": [0.2],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerAttackSpeed": [0.1],
+        "MANA_REFUND": [0.12, 0.12, 0.2]
+    },
+    "amumu": {
+        "ArmorGain": [4.0],
+        "StackCap": [25.0],
+        "MagicDamage": [0.8, 1.2, 1.9],
+        "ARRatio": [1.5, 1.75, 2.0],
+        "HeadlinerHealth": [150.0]
+    },
+    "annie": {
+        "MagicDamage": [1.95, 2.95, 4.4],
+        "HeadlinerAbilityPower": [20.0],
+        "PyromaniaCount": [4.0],
+        "BonusAS": [0.5],
+        "SecondaryDamage": [1.15, 1.7, 2.55]
+    },
+    "aphelios": {
+        "StunDuration": [1.5, 1.5, 2.0],
+        "HeadlinerAttackDamage": 0.2,
+        "ADRatio": [7.25],
+        "Range": [1.0],
+        "APMultiplier": [0.1],
+        "AOEStunDuration": [1.0]
+    },
+    "bard": {
+        "NumNotes": [4.0],
+        "SingleTarDmg": [1.9, 2.85, 4.3],
+        "Heal": [1.2, 1.5, 1.8],
+        "HeadlinerCastsPerMeep": [8.0],
+        "HeadlinerDootDamage": [0.85, 1.25, 1.9],
+        "TipChance": [0.01, 0.01, 0.03],
+        "TipGold": [1.0]
+    },
+    "blitzcrank": {
+        "Period": [2.0],
+        "BaseZapDamage": [1.0, 1.5, 10.0],
+        "BaseShieldAmount": [6.0, 7.5, 20.0],
+        "HealthRatio": [0.01],
+        "Duration": [5.0],
+        "HeadlinerHealth": [150.0]
+    },
+    "caitlyn": {
+        "ADPercent": [3.9, 3.9, 8.0],
+        "APRatio": [0.25, 0.4, 1.2],
+        "NumShots": [4.0],
+        "HeadlinerAttackDamage": [0.05],
+        "HeadlinerShotDamage": [0.6]
+    },
+    "corki": {
+        "RocketDamage": [3.2],
+        "HeadlinerAttackDamage": [0.2],
+        "WoundDuration": [0.05]
+    },
+    "ekko": {
+        "SHIELD_BASE": [4.0, 4.5, 5.5],
+        "SHIELD_DURATION": [4.0],
+        "STUN_DURATION": [1.5],
+        "BASE_DAMAGE": [0.6, 0.9, 1.45],
+        "HEAL_AMOUNT": [100.0],
+        "HeadlinerHealth": [200.0],
+        "HeadlinerAbilityPower": [20.0]
+    },
+    "evelynn": {
+        "MagicDamage": [2.0, 3.0, 4.5],
+        "AttackSpeedPercent": [1.2],
+        "Duration": [4.0],
+        "Healing": [25.0, 30.0, 35.0],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerAbilityPower": [15.0]
+    },
+    "ezreal": {
+        "ADRatioNormalCast": [3.5, 3.5, 7.0],
+        "APRatioSpecialCast": [0.8, 1.2, 3.6],
+        "ADRatioSpecialCast": [3.5, 3.5, 7.0],
+        "HeadlinerAttackDamage": [0.15]
+    },
+    "garen": {
+        "PercentHealthDamage": [0.1],
+        "PercentAD": [1.6],
+        "HeadlinerHealth": [400.0],
+        "MaxHealthAPScalar": [2.0, 2.15, 2.3]
+    },
+    "gnar": {
+        "HealthGain": [5.0, 5.5, 6.0],
+        "ADgain": [0.7],
+        "ADpercent": [3.35, 3.35, 3.35]
+    },
+    "gragas": {
+        "DAMAGE": [1.5, 2.25, 3.5],
+        "DURATION": [2.0],
+        "CCDuration": [3.0],
+        "HEALING": [5.0, 5.75, 6.5],
+        "HeadlinerDamageMod": [0.15],
+        "HeadlinerDR": [0.08]
+    },
+    "countryhecarim": {
+        "AttackSpeed": [0.15],
+        "ADRatio": [2.0]
+    },
+    "illaoi": {
+        "Damage": [1.0, 1.5, 40.0],
+        "StatBonus": [100.0, 150.0, 400.0],
+        "Frequency": [3.0],
+        "HeadlinerArmor": [5.0],
+        "HeadlinerMagicResist": [5.0],
+        "HeadlinerAbilityPower": [10.0],
+        "HeadlinerTentacleFrequency": [2.0],
+        "ArmorScalar": [0.6, 0.6, 5.0],
+        "MRScalar": [0.6, 0.6, 5.0]
+    },
+    "jax": {
+        "SlamDamage": [2.3, 3.45, 5.2],
+        "HexRadiusBeforeRange": [1.0],
+        "HeadlinerHealth": [200.0],
+        "HeadlinerAbilityPower": [20.0],
+        "SpinDamage": [1.4, 2.1, 3.15],
+        "StatBonus": [0.1]
+    },
+    "jhin": {
+        "PhysicalDamageRatio": [0.6, 0.6, 4.44, 4.44],
+        "RIFLES_PER_CAST": [1.0, 1.0, 4.0],
+        "HeadlinerAttackDamage": [0.05],
+        "MagicalDamageBase": [0.15, 0.25, 1.44, 1.44],
+        "EmpoweredShotBonusTooltipOnly": [2.0],
+        "BonusManaOnAttack": [10.0]
+    },
+    "jinx": {
+        "ATTACK_SPEED_BONUS": [0.04],
+        "ROCKET_AD_PERCENT": [0.5],
+        "HeadlinerMinigunAS": [0.01],
+        "HeadlinerRocketBonus": [0.1]
+    },
+    "kaisa": {
+        "ADDamage": [2.8, 2.8, 2.85],
+        "DashRange": [2.0],
+        "HeadlinerAttackDamage": [0.15],
+        "HeadlinerBonusRange": [2.0],
+        "MagicDamage": [0.3, 0.45, 0.65]
+    },
+    "karthus": {
+        "BaseDamage": [2.2, 3.3, 10.0],
+        "ManaGain": [10.0],
+        "NumTargets": [5.0],
+        "HeadlinerAbilityPower": [15.0]
+    },
+    "katarina": {
+        "ExtraBounces": [3.0],
+        "MagicDamage": [1.4, 2.1, 3.15],
+        "WoundDuration": [6.0],
+        "HeadlinerHealth": [150.0],
+        "HeadlinerBladeBonus": [0.25]
+    },
+    "kayle": {
+        "BaseAttackDamage": [0.3, 0.45, 0.7],
+        "Duration": [5.0],
+        "ShredDuration": [4.0],
+        "BaseFinaleDamage": [1.9, 2.85, 4.3],
+        "HeadlinerAttackSpeed": [0.25]
+    },
+    "kayn": {
+        "Damage": [4.0, 6.0, 40.0],
+        "HeadlinerAbilityPower": [5.0],
+        "HeadlinerBonusGold": [2.0],
+        "HeadlinerBonusHealth": [1.0]
+    },
+    "kennen": {
+        "JoltDamage": [1.45, 2.15, 3.25],
+        "NumJolts": [2.0],
+        "StunDuration": [0.75],
+        "BLING_SECONDARY_DAMAGE": [0.5],
+        "HeadlinerHealth": [75.0],
+        "HeadlinerPercentMaxHealthHeal": [0.02]
+    },
+    "ksante": {
+        "Duration": [2.5],
+        "BaseDR": [0.3],
+        "DRAPRatio": [0.2, 0.2, 0.25],
+        "ADRatio": [8.0],
+        "HeadlinerHealth": [225.0],
+        "DR_CAP_tooltip_only": [0.75]
+    },
+    "lillia": {
+        "MagicDamage": [1.8, 2.7, 4.0],
+        "HealAmount": [1.8, 2.2, 2.6],
+        "HeadlinerHealth": [100.0],
+        "AllyHealAmount": [0.9, 1.1, 1.3],
+        "HeadlinerBonusHeal": [0.12]
+    },
+    "lucian": {
+        "BaseDamage": [0.2, 0.3, 1.0],
+        "TADRatio": [0.55, 0.55, 10.0],
+        "NumShots": [14.0],
+        "BonusASBreakpoint": [0.2],
+        "HeadlinerAttackDamage": [0.05],
+        "HeadlinerExtraShots": [3.0],
+        "FlatArmorReduction": [3.0, 5.0, 20.0]
+    },
+    "lulu": {
+        "APRatio": [2.4, 3.6, 5.75],
+        "NumOfEnemiesToStun": [3.0],
+        "StunDamage": [1.2, 1.8, 2.8],
+        "StunDuration": [1.25],
+        "SecondaryDamage": [1.5, 2.25, 3.6],
+        "HeadlinerAbilityPower": [25.0]
+    },
+    "lux": {
+        "MagicDamage": [2.3, 3.45, 5.5],
+        "HeadlinerCritChance": [0.15]
+    },
+    "missfortune": {
+        "PrimaryADRatio": [2.7, 2.7, 2.75],
+        "SecondaryADRatio": [1.8, 1.8, 1.8],
+        "HeadlinerAttackDamage": [0.2],
+        "APRatio": [0.4]
+    },
+    "mordekaiser": {
+        "Duration": [3.0],
+        "BaseShield": [5.0, 5.75, 6.5],
+        "ZoneDamage": [2.0, 3.0, 4.8],
+        "FinaleDamage": [2.0, 3.0, 4.8],
+        "StatGain": [0.04],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerStatGain": [0.01],
+        "HeadlinerAbilityPower": [5.0]
+    },
+    "nami": {
+        "MAGIC_DAMAGE_BASE": [3.0, 4.5, 6.75],
+        "PRISON_DURATION": [1.5],
+        "HeadlinerAbilityPower": [20.0]
+    },
+    "neeko": {
+        "ShieldPercent": [0.05],
+        "Duration": [4.0],
+        "Shield": [2.5, 3.0, 3.5],
+        "HeadlinerHealth": [200.0],
+        "HeadlinerMana": [20.0],
+        "DamagePercent": [0.7, 0.9, 1.15]
+    },
+    "olaf": {
+        "BonusAttackSpeed": [0.0012],
+        "PercentMissingHealth": [0.01],
+        "HealValue": [0.2, 0.25, 0.35],
+        "HeadlinerHealth": [75.0],
+        "HeadlinerArmor": [10.0],
+        "HeadlinerMagicResist": [10.0]
+    },
+    "pantheon": {
+        "DR_PERCENT_AP": [0.15],
+        "BASE_DR": [0.25, 0.25, 0.3],
+        "DURATION": [2.5],
+        "PercentADDamage": [2.0],
+        "HeadlinerHealth": [200.0],
+        "HeadlinerArmor": [20.0],
+        "HeadlinerMagicResist": [20.0],
+        "DR_CAP_tooltip_only": [0.7]
+    },
+    "poppy": {
+        "PercentHealthAsAD": [0.03],
+        "TargetNumber": [3.0],
+        "ArmorAndMR": [100.0],
+        "ADRatio": [2.4, 2.4, 5.0],
+        "Duration": [0.06],
+        "HeadlinerHealth": [150.0],
+        "HeadlinerAttackDamage": [0.1]
+    },
+    "qiyana": {
+        "NUM_ITEMS": [1.0, 2.0, 3.0],
+        "ADRatio": [5.0, 5.0, 10.0],
+        "BASE_AP_MOD": [0.75, 0.75, 5.0],
+        "HeadlinerAttackDamage": [0.05],
+        "HeadlinerBonusAD": [0.05]
+    },
+    "riven": {
+        "SplashRadiusHexes": [1.0],
+        "SplashDamageADPercent": [1.0],
+        "Duration": [6.0],
+        "ShieldAP": [1.0, 1.2, 1.4],
+        "ShieldADPercent": [2.5],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerAttackDamage": [0.1],
+        "HeadlinerArmor": [10.0],
+        "HeadlinerMagicResist": [10.0]
+    },
+    "samira": {
+        "AttackSpeedPerStack": [0.2],
+        "BasePercentAD": [2.4, 2.4, 2.5],
+        "PercentAD": [1.1],
+        "MaxStacks": [6.0],
+        "HeadlinerAttackDamage": [0.05],
+        "HeadlinerCritChance": [0.1]
+    },
+    "senna": {
+        "MagicDamage": [1.05, 1.55, 2.25],
+        "RANGE": [1.0],
+        "PULSE_COUNT": [3.0],
+        "BLING_BONUS": [15.0],
+        "HeadlinerAbilityPower": [5.0]
+    },
+    "seraphine": {
+        "BaseMagicDamage": [1.4, 2.1, 3.15],
+        "HealAmount": [0.8, 1.2, 1.6],
+        "HeadlinerHighNoteBonus": [0.4]
+    },
+    "sett": {
+        "Duration": [2.0],
+        "Damage": [2.75, 4.2, 6.8],
+        "SecondaryDamage": [1.3, 2.1, 3.4],
+        "ShieldMin": [375.0, 425.0, 475.0],
+        "MissingHealthThreshold": [4.0],
+        "ShieldIncreasePerHealthThreshold": [1.0],
+        "HeadlinerHealth": [150.0],
+        "HeadlinerHealthThreshold": [0.5],
+        "HeadlinerPermanentHealth": [50.0]
+    },
+    "sona": {
+        "PassiveAttackSpeed": [0.25, 0.35, 5.0],
+        "ActiveAttackSpeed": [1.25, 1.75, 7.77],
+        "ActiveDuration": [6.0, 6.0, 30.0],
+        "BaseProcDamage": [0.9, 1.35, 7.77],
+        "PassiveDuration": [4.0],
+        "HeadlinerAttackSpeed": [0.05],
+        "HeadlinerAttackSpeedBoost": [0.02]
+    },
+    "tahmkench": {
+        "BaseDR": [0.12, 0.15, 0.25],
+        "HeadlinerHealth": [225.0]
+    },
+    "taric": {
+        "SHIELD_BASE": [2.4, 2.9, 3.3],
+        "SHIELD_RATIO": [0.06],
+        "DURATION": [4.0],
+        "BONUS_DAMAGE_BASE": [1.0, 1.5, 2.25],
+        "EMPOWERED_ATTACKS": [2.0],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerArmor": [15.0]
+    },
+    "thresh": {
+        "StunDuration": [1.75, 2.0, 8.0],
+        "Damage": [1.5, 2.25, 12.0],
+        "FlatHeal": [250.0, 300.0, 600.0],
+        "HealingScale": [0.5],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerManarReduction": [25.0]
+    },
+    "twistedfate": {
+        "BaseDamage": [0.5, 0.75, 2.25],
+        "MRShred": [1.0],
+        "CardCount": [21.0],
+        "CardsPerBonusBreakpoint": [1.0],
+        "BonusASBreakpoint": [0.4],
+        "HeadlinerBonusCards": [3.0]
+    },
+    "twitch": {
+        "InitialADDamage": [2.0],
+        "SecondaryMagicDamage": [0.35, 0.5, 0.8],
+        "SecondaryExplosions": [6.0],
+        "BonusExplosionsOnCrit": [1.0],
+        "HeadlinerAttackDamage": [0.15],
+        "HeadlinerCritChance": [0.2]
+    },
+    "urgot": {
+        "ADRatio": [1.75, 1.75, 1.8],
+        "Duration": [8.0],
+        "ShieldRatio": [0.2],
+        "ShieldDuration": [5.0],
+        "AbilityScaleDamage": [0.15, 0.25, 0.4],
+        "HeadlinerAttackDamage": [0.15],
+        "HeadlinerOmnivamp": [0.1]
+    },
+    "vex": {
+        "Damage": [2.55, 3.8, 6.1],
+        "StunDuration": [1.5],
+        "HeadlinerAbilityPower": [25.0]
+    },
+    "vi": {
+        "ARMOR_REDUCTION": [0.15, 0.18, 0.2],
+        "PUNCH_RATIO": [2.2],
+        "EMPOWERED_PUNCH_RATIO": [3.2],
+        "STUN_DURATION": [1.5, 1.75, 2.0],
+        "HeadlinerHealth": [150.0],
+        "HeadlinerAttackDamage": [0.1]
+    },
+    "viego": {
+        "SlamDamage": [2.0, 2.0, 4.0],
+        "BonusAttackDamage": [1.7, 1.7, 3.4],
+        "MarkDuration": [5.0],
+        "MarkBonusDamage": [0.1],
+        "HeadlinerHealth": [150.0],
+        "HeadlinerAttackDamage": [0.1]
+    },
+    "yasuo": {
+        "DAMAGE_RATIO": [2.9],
+        "AD_KILL_GAIN": [0.01],
+        "MAGIC_DAMAGE": [0.2],
+        "EXECUTE_PERCENT": [0.15],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerOmnivamp": [0.15]
+    },
+    "yone": {
+        "Omnivamp": [0.08],
+        "ADRatio": [2.1, 2.1, 2.15],
+        "HeadlinerHealth": [200.0],
+        "HeadlinerAttackDamage": [0.2]
+    },
+    "yorick": {
+        "ZOMBIE_COUNT": [9.0, 10.0, 25.0],
+        "AD_RATIO": [1.5, 1.5, 10.0],
+        "BigZombieHealth": [900.0, 1750.0, 9001.0],
+        "BigZombieADRatio": [2.5, 2.5, 20.0],
+        "HeadlinerHealth": [50.0],
+        "ArmorShredDuration": [3.0],
+        "HeadlinerZombieDamage": [0.1],
+        "HeadlinerZombieCount": [2.0]
+    },
+    "zac": {
+        "MagicDamage": [1.2, 1.8, 12.0],
+        "StunDuration": [1.0],
+        "BaseHeal": [1.0, 1.4, 8.0],
+        "BounceCount": [3.0],
+        "HeadlinerHealth": [200.0],
+        "HeadlinerAbilityPower": [15.0]
+    },
+    "zed": {
+        "ADPercent": [1.85, 1.85, 3.7],
+        "Duration": [4.0],
+        "MarkDamageADRatio": [3.5, 3.5, 7.0],
+        "HealthThreshold": [0.15],
+        "HeadlinerHealth": [100.0],
+        "HeadlinerShadowAD": [0.1],
+        "HeadlinerShadowAS": [0.1]
+    },
+    "ziggs": {
+        "TargetDamage": [3.6, 5.4, 40.0],
+        "BombDamage": [0.7, 1.05, 4.0],
+        "StartingBombs": [5.0, 5.0, 35.0],
+        "ShredDuration": [4.0],
+        "NumToIncreasePerCast": [1.0],
+        "HeadlinerAbilityPower": [5.0],
+        "HeadlinerManaReduction": [5.0]
+    }
+}

@@ -110,9 +110,9 @@
         "displayName": "Guardian",
         "traitDescription": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.`",
         "intervals": [
-            { "count": 2, "text": "25.0" },
-            { "count": 4, "text": "40.0" },
-            { "count": 6, "text": "60.0" }
+            { "count": 2, "text": "25.0%" },
+            { "count": 4, "text": "40.0%" },
+            { "count": 6, "text": "60.0%" }
         ],
         "champions": [
             {
@@ -165,11 +165,11 @@
         "traitDescription": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.",
         "intervals": [
             {
-                "count": 6,
+                "count": 2,
                 "text": "<span class=\"effectText\">15%</span> damage"
             },
             {
-                "count": 6,
+                "count": 4,
                 "text": "<span class=\"effectText\">30%</span> damage"
             },
             {
@@ -177,8 +177,8 @@
                 "text": "<span class=\"effectText\">45%</span> damage"
             },
             {
-                "count": 6,
-                "text": "<span class=\"effectText\">125%</span> damage"
+                "count": 9,
+                "text": "<span class=\"effectText\">125%</span> damage, Bling Bonuses Go Platinum"
             }
         ],
         "champions": [
@@ -636,16 +636,13 @@
         "displayName": "Superfan",
         "traitDescription": "Superfans improve your Headliner!",
         "intervals": [
+            { "count": 3, "text": "Headliner gets a completed item" },
             {
-                "count": 6,
-                "text": "Item upgrades to radiant<br/>\n                    <br/>\n                    <span class=\"blingBonusText\">Omnivamp: Heal for percentage of damage dealt</span>"
+                "count": 4,
+                "text": "Headliner gets 250 <img src=\"general/stats/health.png\"/> and 15% <span class=\"effectText\">Omnivamp</span>"
             },
             {
-                "count": 6,
-                "text": "Item upgrades to radiant<br/>\n                    <br/>\n                    <span class=\"blingBonusText\">Omnivamp: Heal for percentage of damage dealt</span>"
-            },
-            {
-                "count": 6,
+                "count": 5,
                 "text": "Item upgrades to radiant<br/>\n                    <br/>\n                    <span class=\"blingBonusText\">Omnivamp: Heal for percentage of damage dealt</span>"
             }
         ],

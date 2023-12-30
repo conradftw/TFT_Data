@@ -1,0 +1,1441 @@
+{
+    "emo": {
+        "name": "emo",
+        "displayName": "Emo",
+        "traitDescription": "Emo champions' Abilities cost less Mana to cast, and they gain Mana whenever an allied champion dies.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "20.0% less, gain 10.0 <img src=\"general/stats/mana.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "25.0% less, gain 20.0 <img src=\"general/stats/mana.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "20.0 <img src=\"general/stats/ability_power.png\"/>; 30.0% less, gain 25.0 <img src=\"general/stats/mana.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "annie",
+                "displayName": "Annie",
+                "cost": 1,
+                "traits": ["Emo", "Spellweaver"]
+            },
+            {
+                "name": "amumu",
+                "displayName": "Amumu",
+                "cost": 3,
+                "traits": ["Emo", "Guardian"]
+            },
+            {
+                "name": "vex",
+                "displayName": "Vex",
+                "cost": 3,
+                "traits": ["Emo", "Executioner"]
+            },
+            {
+                "name": "poppy",
+                "displayName": "Poppy",
+                "cost": 4,
+                "traits": ["Emo", "Mosher"]
+            }
+        ]
+    },
+    "sentinel": {
+        "name": "sentinel",
+        "displayName": "Sentinel",
+        "traitDescription": "Your team gains Armor and Magic Resist. Sentinels gain double.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "16.0 <img src=\"general/stats/armor.png\"/> 16.0 <img src=\"general/stats/magic_resist.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "35.0 <img src=\"general/stats/armor.png\"/> 35.0 <img src=\"general/stats/magic_resist.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "60.0 <img src=\"general/stats/armor.png\"/> 60.0 <img src=\"general/stats/magic_resist.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 8,
+                    "text": "125.0 <img src=\"general/stats/armor.png\"/> 125.0 <img src=\"general/stats/magic_resist.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "ksante",
+                "displayName": "K'Sante",
+                "cost": 1,
+                "traits": ["Heartsteel", "Sentinel"]
+            },
+            {
+                "name": "lillia",
+                "displayName": "Lillia",
+                "cost": 1,
+                "traits": ["K/DA", "Superfan", "Sentinel"]
+            },
+            {
+                "name": "garen",
+                "displayName": "Garen",
+                "cost": 2,
+                "traits": ["8-bit", "Sentinel"]
+            },
+            {
+                "name": "ekko",
+                "displayName": "Ekko",
+                "cost": 3,
+                "traits": ["True Damage", "Spellweaver", "Sentinel"]
+            },
+            {
+                "name": "mordekaiser",
+                "displayName": "Mordekaiser",
+                "cost": 3,
+                "traits": ["Pentakill", "Sentinel"]
+            },
+            {
+                "name": "blitzcrank",
+                "displayName": "Blitzcrank",
+                "cost": 4,
+                "traits": ["Disco", "Sentinel"]
+            }
+        ]
+    },
+    "guardian": {
+        "name": "guardian",
+        "displayName": "Guardian",
+        "traitDescription": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their max Health.`",
+        "intervals": [
+            [{ "count": 2, "text": "25.0" }],
+            [{ "count": 4, "text": "40.0" }],
+            [{ "count": 6, "text": "60.0" }]
+        ],
+        "champions": [
+            {
+                "name": "kennen",
+                "displayName": "Kennen",
+                "cost": 1,
+                "traits": ["True Damage", "Superfan", "Guardian"]
+            },
+            {
+                "name": "taric",
+                "displayName": "Taric",
+                "cost": 1,
+                "traits": ["Disco", "Guardian"]
+            },
+            {
+                "name": "pantheon",
+                "displayName": "Pantheon",
+                "cost": 2,
+                "traits": ["Punk", "Guardian"]
+            },
+            {
+                "name": "amumu",
+                "displayName": "Amumu",
+                "cost": 3,
+                "traits": ["Emo", "Guardian"]
+            },
+            {
+                "name": "neeko",
+                "displayName": "Neeko",
+                "cost": 3,
+                "traits": ["K/DA", "Superfan", "Guardian"]
+            },
+            {
+                "name": "thresh",
+                "displayName": "Thresh",
+                "cost": 4,
+                "traits": ["Country", "Guardian"]
+            },
+            {
+                "name": "yorick",
+                "displayName": "Yorick",
+                "cost": 5,
+                "traits": ["Pentakill", "Mosher", "Guardian"]
+            }
+        ]
+    },
+    "truedamage": {
+        "name": "truedamage",
+        "displayName": "True Damage",
+        "traitDescription": "True Damage champions deal bonus true damage. If they are holding an item, they gain a unique Bling Bonus for their Ability.",
+        "intervals": [
+            [
+                {
+                    "count": 6,
+                    "text": "<span class=\"effectText\">15%</span> damage"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "<span class=\"effectText\">30%</span> damage"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "<span class=\"effectText\">45%</span> damage"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "<span class=\"effectText\">125%</span> damage"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "kennen",
+                "displayName": "Kennen",
+                "cost": 1,
+                "traits": ["True Damage", "Superfan", "Guardian"]
+            },
+            {
+                "name": "yasuo",
+                "displayName": "Yasuo",
+                "cost": 1,
+                "traits": ["True Damage", "Edgelord"]
+            },
+            {
+                "name": "senna",
+                "displayName": "Senna",
+                "cost": 2,
+                "traits": ["True Damage", "Rapidfire"]
+            },
+            {
+                "name": "ekko",
+                "displayName": "Ekko",
+                "cost": 3,
+                "traits": ["True Damage", "Spellweaver", "Sentinel"]
+            },
+            {
+                "name": "akali_truedamage",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["True Damage", "Executioner", "Breakout"]
+            },
+            {
+                "name": "qiyana",
+                "displayName": "Qiyana",
+                "cost": 5,
+                "traits": ["True Damage", "Crowd Diver"]
+            }
+        ]
+    },
+    "country": {
+        "name": "country",
+        "displayName": "Country",
+        "traitDescription": "When your team loses 30% of their Health, call a Dreadsteed that empowers your team. Each Country star level increases the Dreadsteed's Health and Attack Damage.",
+        "intervals": [
+            [{ "count": 3, "text": "Dreadsteed" }],
+            [{ "count": 5, "text": "Midnight Dreadsteed" }],
+            [{ "count": 7, "text": "Infernal Invocation Dreadsteed" }]
+        ],
+        "champions": [
+            {
+                "name": "tahmkench",
+                "displayName": "Tahm Kench",
+                "cost": 1,
+                "traits": ["Country", "Bruiser"]
+            },
+            {
+                "name": "katarina",
+                "displayName": "Katarina",
+                "cost": 2,
+                "traits": ["Country", "Crowd Diver"]
+            },
+            {
+                "name": "samira",
+                "displayName": "Samira",
+                "cost": 3,
+                "traits": ["Country", "Executioner"]
+            },
+            {
+                "name": "urgot",
+                "displayName": "Urgot",
+                "cost": 3,
+                "traits": ["Country", "Mosher"]
+            },
+            {
+                "name": "thresh",
+                "displayName": "Thresh",
+                "cost": 4,
+                "traits": ["Country", "Guardian"]
+            }
+        ]
+    },
+    "8bit": {
+        "name": "8bit",
+        "displayName": "8-bit",
+        "traitDescription": "Keep score of your team's damage dealt. For each high score you beat, 8-bit champions gain Attack Damage.",
+        "intervals": [
+            {
+                "count": 2,
+                "text": "4.5% <img src=\"general/stats/attack_damage.png\"/>"
+            },
+            {
+                "count": 4,
+                "text": "7.5% <img src=\"general/stats/attack_damage.png\"/>"
+            },
+            {
+                "count": 6,
+                "text": "12.0% <img src=\"general/stats/attack_damage.png\"/> and unlock a final high score, that rewards you with a grand prize"
+            }
+        ],
+        "champions": [
+            {
+                "name": "corki",
+                "displayName": "Corki",
+                "cost": 1,
+                "traits": ["8-bit", "Big Shot"]
+            },
+            {
+                "name": "garen",
+                "displayName": "Garen",
+                "cost": 2,
+                "traits": ["8-bit", "Sentinel"]
+            },
+            {
+                "name": "riven",
+                "displayName": "Riven",
+                "cost": 3,
+                "traits": ["8-bit", "Edgelord"]
+            },
+            {
+                "name": "caitlyn",
+                "displayName": "Caitlyn",
+                "cost": 4,
+                "traits": ["8-bit", "Rapidfire"]
+            }
+        ]
+    },
+    "breakout": {
+        "name": "breakout",
+        "displayName": "Breakout",
+        "traitDescription": "(unique) Akali is a member of K/DA or True Damage depending on which trait has more fielded champions. She gains a different Ability depending on which form she takes.",
+        "intervals": [],
+        "champions": [
+            {
+                "name": "akali_truedamage",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["True Damage", "Executioner", "Breakout"]
+            },
+            {
+                "name": "akali",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["K/DA", "Executioner", "Breakout"]
+            }
+        ]
+    },
+    "spellweaver": {
+        "name": "spellweaver",
+        "displayName": "Spellweaver",
+        "traitDescription": "Your team gains 15 Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability.",
+        "intervals": [
+            [
+                {
+                    "count": 3,
+                    "text": "+20.0 <img src=\"general/stats/ability_power.png\"/>, +1.0 <img src=\"general/stats/ability_power.png\"/> per cast"
+                }
+            ],
+            [
+                {
+                    "count": 5,
+                    "text": "+35.0 <img src=\"general/stats/ability_power.png\"/>, +1.0 <img src=\"general/stats/ability_power.png\"/> per cast"
+                }
+            ],
+            [
+                {
+                    "count": 7,
+                    "text": "+60.0 <img src=\"general/stats/ability_power.png\"/>, +2.0 <img src=\"general/stats/ability_power.png\"/> per cast"
+                }
+            ],
+            [
+                {
+                    "count": 10,
+                    "text": "+120.0 <img src=\"general/stats/ability_power.png\"/>, +10.0 <img src=\"general/stats/ability_power.png\"/> per cast"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "annie",
+                "displayName": "Annie",
+                "cost": 1,
+                "traits": ["Emo", "Spellweaver"]
+            },
+            {
+                "name": "gragas",
+                "displayName": "Gragas",
+                "cost": 2,
+                "traits": ["Disco", "Spellweaver", "Bruiser"]
+            },
+            {
+                "name": "seraphine",
+                "displayName": "Seraphine",
+                "cost": 2,
+                "traits": ["K/DA", "Spellweaver"]
+            },
+            {
+                "name": "ekko",
+                "displayName": "Ekko",
+                "cost": 3,
+                "traits": ["True Damage", "Spellweaver", "Sentinel"]
+            },
+            {
+                "name": "lulu",
+                "displayName": "Lulul",
+                "cost": 3,
+                "traits": ["Hyperpop", "Spellweaver"]
+            },
+            {
+                "name": "ahri",
+                "displayName": "Ahri",
+                "cost": 4,
+                "traits": ["K/DA", "Spellweaver"]
+            },
+            {
+                "name": "sona",
+                "displayName": "Sona",
+                "cost": 5,
+                "traits": ["Mixmaster", "Spellweaver"]
+            }
+        ]
+    },
+    "hyperpop": {
+        "name": "hyperpop",
+        "displayName": "Hyperpop",
+        "traitDescription": "When Hyperpop champions use an Ability, they grant Mana and 4 seconds of Attack Speed to their 2 closest allies.",
+        "intervals": [
+            [
+                {
+                    "count": 1,
+                    "text": "3.0 <img src=\"general/stats/mana.png\"/> and 10% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 2,
+                    "text": "5.0 <img src=\"general/stats/mana.png\"/> and 20% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 3,
+                    "text": "7.0 <img src=\"general/stats/mana.png\"/> and 35% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "10.0 <img src=\"general/stats/mana.png\"/> and 60% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "lulu",
+                "displayName": "Lulu",
+                "cost": 3,
+                "traits": ["Hyperpop", "Spellweaver"]
+            },
+            {
+                "name": "ziggs",
+                "displayName": "Ziggs",
+                "cost": 5,
+                "traits": ["Hyperpop", "Dazzler"]
+            }
+        ]
+    },
+    "pentakill": {
+        "name": "pentakill",
+        "displayName": "Pentakill",
+        "traitDescription": "Pentakill champions reduce incoming damage by 15% and deal bonus damage. For each champon kill, a Pentakill champion rocks out and increases their damage bonus by 25%. <br/>\n            <br/>\n            On the 5th kill, all Pentakill champions rock out and your team gains 50% Attack Speed.",
+        "intervals": [
+            [{ "count": 3, "text": "15% bonus damage" }],
+            [{ "count": 5, "text": "30% bonus damage" }],
+            [{ "count": 7, "text": "45% bonus damage" }],
+            [
+                {
+                    "count": 10,
+                    "text": "50% damage reduction and 110% bonus damage"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "olaf",
+                "displayName": "Olaf",
+                "cost": 1,
+                "traits": ["Pentakill", "Bruiser"]
+            },
+            {
+                "name": "gnar",
+                "displayName": "Gnar",
+                "cost": 2,
+                "traits": ["Pentakill", "Superfan", "Mosher"]
+            },
+            {
+                "name": "kayle",
+                "displayName": "Kayle",
+                "cost": 2,
+                "traits": ["Pentakill", "Edgelord"]
+            },
+            {
+                "name": "mordekaiser",
+                "displayName": "Mordekaiser",
+                "cost": 3,
+                "traits": ["Pentakill", "Sentinel"]
+            },
+            {
+                "name": "karthus",
+                "displayName": "Karthus",
+                "cost": 4,
+                "traits": ["Pentakill", "Executioner"]
+            },
+            {
+                "name": "viego",
+                "displayName": "Viego",
+                "cost": 4,
+                "traits": ["Pentakill", "Edgelord"]
+            },
+            {
+                "name": "yorick",
+                "displayName": "Yorick",
+                "cost": 5,
+                "traits": ["Pentakill", "Mosher", "Guardian"]
+            }
+        ]
+    },
+    "illbeats": {
+        "name": "illbeats",
+        "displayName": "ILLBEATS",
+        "traitDescription": "(unique) Gain 2/2/8 placeable Spirit Tentacles, based on Illaoi's star level. Tentacles gain Illaoi's bonus Armor and Magic Resist.",
+        "intervals": [],
+        "champions": [
+            {
+                "name": "illaoi",
+                "displayName": "Illaoi",
+                "cost": 5,
+                "traits": ["ILLBEATS", "Bruiser"]
+            }
+        ]
+    },
+    "wildcard": {
+        "name": "wildcard",
+        "displayName": "Wildcard",
+        "traitDescription": "(unique) If you win player combat, Kayn becomes the Shadow Assassin. If not, he becomes Rhaast. You receive a reward based on his form every time he kills 2 enemy champions.<br/>\n            <br/>\n            Shadow Assassin: 3g <br/>\n            Rhaast: 1 player health",
+        "intervals": [],
+        "champions": [
+            {
+                "name": "kayn",
+                "displayName": "Kayn",
+                "cost": 5,
+                "traits": ["Heartsteel", "Edgelord", "Wildcard"]
+            }
+        ]
+    },
+    "edgelord": {
+        "name": "edgelord",
+        "displayName": "Edgelord",
+        "traitDescription": "Edgelords gain Attack Speed, which doubles when their target drops below 50% Health. Edgelords with 1-hex range also dash through them on their next attack.",
+        "intervals": [
+            [
+                {
+                    "count": 3,
+                    "text": "30% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 5,
+                    "text": "45% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 7,
+                    "text": "70% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "yasuo",
+                "displayName": "Yasuo",
+                "cost": 1,
+                "traits": ["True Damage", "Edgelord"]
+            },
+            {
+                "name": "kayle",
+                "displayName": "Kayle",
+                "cost": 2,
+                "traits": ["Pentakill", "Edgelord"]
+            },
+            {
+                "name": "riven",
+                "displayName": "Riven",
+                "cost": 3,
+                "traits": ["8-bit", "Edgelord"]
+            },
+            {
+                "name": "yone",
+                "displayName": "Yone",
+                "cost": 3,
+                "traits": ["Heartsteel", "Edgelord", "Crowd Diver"]
+            },
+            {
+                "name": "viego",
+                "displayName": "Viego",
+                "cost": 4,
+                "traits": ["Pentakill", "Edgelord"]
+            },
+            {
+                "name": "kayn",
+                "displayName": "Kayn",
+                "cost": 5,
+                "traits": ["Heartsteel", "Edgelord", "Wildcard"]
+            }
+        ]
+    },
+    "executioner": {
+        "name": "executioner",
+        "displayName": "Executioner",
+        "traitDescription": "Executioner Abilities can critically strike and they gain Critical Strike Damage. Their Critical Strike Chance is increased based on their target's missing Health.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "5% <img src=\"general/stats/crit_damage.png\"/>. Up to 15% <img src=\"general/stats/crit_chance.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "25% <img src=\"general/stats/crit_damage.png\"/>. Up to 35% <img src=\"general/stats/crit_chance.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "45% <img src=\"general/stats/crit_damage.png\"/>. Up to 55% <img src=\"general/stats/crit_chance.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "twitch",
+                "displayName": "Twitch",
+                "cost": 2,
+                "traits": ["Punk", "Executioner"]
+            },
+            {
+                "name": "samira",
+                "displayName": "Samira",
+                "cost": 3,
+                "traits": ["Country", "Executioner"]
+            },
+            {
+                "name": "vex",
+                "displayName": "Vex",
+                "cost": 3,
+                "traits": ["Emo", "Executioner"]
+            },
+            {
+                "name": "akali",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["K/DA", "Executioner", "Breakout"]
+            },
+            {
+                "name": "akali_truedamage",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["True Damage", "Executioner", "Breakout"]
+            },
+            {
+                "name": "karthus",
+                "displayName": "Karthus",
+                "cost": 4,
+                "traits": ["Pentakill", "Executioner"]
+            }
+        ]
+    },
+    "superfan": {
+        "name": "superfan",
+        "displayName": "Superfan",
+        "traitDescription": "Superfans improve your Headliner!",
+        "intervals": [
+            [
+                {
+                    "count": 6,
+                    "text": "Item upgrades to radiant<br/>\n                    <br/>\n                    <span class=\"blingBonusText\">Omnivamp: Heal for percentage of damage dealt</span>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "Item upgrades to radiant<br/>\n                    <br/>\n                    <span class=\"blingBonusText\">Omnivamp: Heal for percentage of damage dealt</span>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "Item upgrades to radiant<br/>\n                    <br/>\n                    <span class=\"blingBonusText\">Omnivamp: Heal for percentage of damage dealt</span>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "kennen",
+                "displayName": "Kennen",
+                "cost": 1,
+                "traits": ["True Damage", "Superfan", "Guardian"]
+            },
+            {
+                "name": "lillia",
+                "displayName": "Lillia",
+                "cost": 1,
+                "traits": ["K/DA", "Superfan", "Sentinel"]
+            },
+            {
+                "name": "gnar",
+                "displayName": "Gnar",
+                "cost": 2,
+                "traits": ["Pentakill", "Superfan", "Mosher"]
+            },
+            {
+                "name": "neeko",
+                "displayName": "Neeko",
+                "cost": 3,
+                "traits": ["K/DA", "Superfan", "Guardian"]
+            }
+        ]
+    },
+    "mixmaster": {
+        "name": "mixmaster",
+        "displayName": "Mixmaster",
+        "traitDescription": "(unique) Choose a mode that changes the Mixmaster's attacks and Ability!",
+        "intervals": [],
+        "champions": [
+            {
+                "name": "sona",
+                "displayName": "sona",
+                "cost": 5,
+                "traits": ["Mixmaster", "Spellweaver"]
+            }
+        ]
+    },
+    "bigshot": {
+        "name": "bigshot",
+        "displayName": "Big Shot",
+        "traitDescription": "Big Shots gain Attack Damage, which increases for 3 seconds when they use their ability.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "10% <img src=\"general/stats/attack_damage.png\"/>, 40% after casting"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "15% <img src=\"general/stats/attack_damage.png\"/>, 60% after casting"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "25% <img src=\"general/stats/attack_damage.png\"/>, 100% after casting"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "corki",
+                "displayName": "Corki",
+                "cost": 1,
+                "traits": ["8-bit", "Big Shot"]
+            },
+            {
+                "name": "kaisa",
+                "displayName": "Kaisa",
+                "cost": 2,
+                "traits": ["K/DA", "Big Shot"]
+            },
+            {
+                "name": "missfortune",
+                "displayName": "Miss Fortune",
+                "cost": 3,
+                "traits": ["Jazz", "Big Shot"]
+            },
+            {
+                "name": "ezreal",
+                "displayName": "Ezreal",
+                "cost": 4,
+                "traits": ["Heartsteel", "Big Shot"]
+            },
+            {
+                "name": "jhin",
+                "displayName": "Jhin",
+                "cost": 5,
+                "traits": ["Maestro", "Big Shot"]
+            }
+        ]
+    },
+    "crowddiver": {
+        "name": "crowddiver",
+        "displayName": "Crowd Diver",
+        "traitDescription": "After Crowd Divers die, they leap onto the furthest enemy, dealing <span class=\"magicDamage\">300</span> magic damage. Enemies within 1 hex are Stunned for 1.5 seconds.<br/>\n            <br/>\n            They also deal bonus damage, increased by 1% each second.",
+        "intervals": [
+            [{ "count": 2, "text": "5% bonus damage" }],
+            [{ "count": 4, "text": "30% bonus damage" }],
+            [{ "count": 6, "text": "60% bonus damage" }]
+        ],
+        "champions": [
+            {
+                "name": "evelynn",
+                "displayName": "Evelynn",
+                "cost": 1,
+                "traits": ["K/DA", "Crowd Diver"]
+            },
+            {
+                "name": "katarina",
+                "displayName": "Katarina",
+                "cost": 2,
+                "traits": ["Country", "Crowd Diver"]
+            },
+            {
+                "name": "yone",
+                "displayName": "Yone",
+                "cost": 3,
+                "traits": ["Heartsteel", "Edgelord", "Crowd Diver"]
+            },
+            {
+                "name": "zed",
+                "displayName": "Zed",
+                "cost": 4,
+                "traits": ["EDM", "Crowd Diver"]
+            },
+            {
+                "name": "qiyana",
+                "displayName": "Qiyana",
+                "cost": 5,
+                "traits": ["True Damage", "Crowd Diver"]
+            }
+        ]
+    },
+    "kda": {
+        "name": "kda",
+        "displayName": "K/DA",
+        "traitDescription": "Your team gains max Health, Ability Power, and Attack Damage if they are in a lighted hex. K/DA champions gain double!",
+        "intervals": [
+            [
+                {
+                    "count": 3,
+                    "text": "10% max <img src=\"general/stats/health.png\"/>, 10.0% <img src=\"general/stats/ability_power.png\"/><img src=\"general/stats/attack_damage.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 5,
+                    "text": "15% max <img src=\"general/stats/health.png\"/>, 15.0% <img src=\"general/stats/ability_power.png\"/><img src=\"general/stats/attack_damage.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 7,
+                    "text": "22% max <img src=\"general/stats/health.png\"/>, 22.0% <img src=\"general/stats/ability_power.png\"/><img src=\"general/stats/attack_damage.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 10,
+                    "text": "50% max <img src=\"general/stats/health.png\"/>, 50.0% <img src=\"general/stats/ability_power.png\"/><img src=\"general/stats/attack_damage.png\"/>, 10.0 mana per second"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "evelynn",
+                "displayName": "Evelynn",
+                "cost": 1,
+                "traits": ["K/DA", "Crowd Diver"]
+            },
+            {
+                "name": "lillia",
+                "displayName": "Lillia",
+                "cost": 1,
+                "traits": ["K/DA", "Superfan", "Sentinel"]
+            },
+            {
+                "name": "kaisa",
+                "displayName": "Kai'Sa",
+                "cost": 2,
+                "traits": ["K/DA", "Big Shot"]
+            },
+            {
+                "name": "seraphine",
+                "displayName": "Seraphine",
+                "cost": 2,
+                "traits": ["K/DA", "Spellweaver"]
+            },
+            {
+                "name": "neeko",
+                "displayName": "Neeko",
+                "cost": 3,
+                "traits": ["K/DA", "Superfan", "Guardian"]
+            },
+            {
+                "name": "ahri",
+                "displayName": "Ahri",
+                "cost": 4,
+                "traits": ["K/DA", "Spellweaver"]
+            },
+            {
+                "name": "akali",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["K/DA", "Executioner", "Breakout"]
+            },
+            {
+                "name": "akali_truedamage",
+                "displayName": "Akali",
+                "cost": 4,
+                "traits": ["True Damage", "Executioner", "Breakout"]
+            }
+        ]
+    },
+    "maestro": {
+        "name": "maestro",
+        "displayName": "Maestro",
+        "traitDescription": "(unique) The Maestro always attacks at a fixed pace, converting 1% bonus Attack Speed into 0.7% Attack Damage.",
+        "intervals": [],
+        "champions": [
+            {
+                "name": "jhin",
+                "displayName": "Jhin",
+                "cost": 5,
+                "traits": ["Maestro", "Big Shot"]
+            }
+        ]
+    },
+    "disco": {
+        "name": "disco",
+        "displayName": "Disco",
+        "traitDescription": "Summon a movable Disco Ball.<br/>\n            <br/>\n            Combat start: Allies next to it gain Attack Speed and healing immediately and every 3 seconds.",
+        "intervals": [
+            [
+                {
+                    "count": 3,
+                    "text": "5% <img src=\"general/stats/attack_speed.png\"/> and 2% max <img src=\"general/stats/health.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "10% <img src=\"general/stats/attack_speed.png\"/> and 3% max <img src=\"general/stats/health.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 5,
+                    "text": "2 Disco Balls, 15% <img src=\"general/stats/attack_speed.png\"/> and 3% max <img src=\"general/stats/health.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "20% <img src=\"general/stats/attack_speed.png\"/> and 5% max <img src=\"general/stats/health.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "nami",
+                "displayName": "Nami",
+                "cost": 1,
+                "traits": ["Disco", "Dazzler"]
+            },
+            {
+                "name": "taric",
+                "displayName": "Taric",
+                "cost": 1,
+                "traits": ["Disco", "Guardian"]
+            },
+            {
+                "name": "gragas",
+                "displayName": "Gragas",
+                "cost": 2,
+                "traits": ["Disco", "Spellweaver", "Bruiser"]
+            },
+            {
+                "name": "blitzcrank",
+                "displayName": "Blitzcrank",
+                "cost": 4,
+                "traits": ["Disco", "Sentinel"]
+            },
+            {
+                "name": "twistedfate",
+                "displayName": "Twisted Fate",
+                "cost": 4,
+                "traits": ["Disco", "Dazzler"]
+            }
+        ]
+    },
+    "mosher": {
+        "name": "mosher",
+        "displayName": "Mosher",
+        "traitDescription": "Moshers gain Attack Speed and <span class=\"effectText\">Omnivamp</span>, which increases up to 100% based on their missing Health.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "20.0% <img src=\"general/stats/attack_speed.png\"/>, 10.0% Omnivamp"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "30.0% <img src=\"general/stats/attack_speed.png\"/>, 15.0% Omnivamp"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "50.0% <img src=\"general/stats/attack_speed.png\"/>, 20.0% Omnivamp"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "vi",
+                "displayName": "Vi",
+                "cost": 1,
+                "traits": ["Punk", "Mosher"]
+            },
+            {
+                "name": "gnar",
+                "displayName": "gnar",
+                "cost": 2,
+                "traits": ["Pentakill", "Superfan", "Mosher"]
+            },
+            {
+                "name": "jax",
+                "displayName": "Jax",
+                "cost": 2,
+                "traits": ["EDM", "Mosher"]
+            },
+            {
+                "name": "sett",
+                "displayName": "Sett",
+                "cost": 3,
+                "traits": ["Heartsteel", "Bruiser", "Mosher"]
+            },
+            {
+                "name": "urgot",
+                "displayName": "Urgot",
+                "cost": 3,
+                "traits": ["Country", "Mosher"]
+            },
+            {
+                "name": "poppy",
+                "displayName": "Poppy",
+                "cost": 4,
+                "traits": ["Emo", "Mosher"]
+            },
+            {
+                "name": "yorick",
+                "displayName": "Yorick",
+                "cost": 5,
+                "traits": ["Pentakill", "Mosher", "Guardian"]
+            }
+        ]
+    },
+    "rapidfire": {
+        "name": "rapidfire",
+        "displayName": "Rapidfire",
+        "traitDescription": "Your team gains 10% Attack Speed.<br/>\n            <br/>\n            Rapidfire champions gain more on every attack, up to 10 stacks.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "4% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "7% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "12% <img src=\"general/stats/attack_speed.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "jinx",
+                "displayName": "Jinx",
+                "cost": 1,
+                "traits": ["Punk", "Rapidfire"]
+            },
+            {
+                "name": "aphelios",
+                "displayName": "Aphelios",
+                "cost": 2,
+                "traits": ["Heartsteel", "Rapidfire"]
+            },
+            {
+                "name": "senna",
+                "displayName": "Senna",
+                "cost": 2,
+                "traits": ["True Damage", "Rapidfire"]
+            },
+            {
+                "name": "caitlyn",
+                "displayName": "Caitlyn",
+                "cost": 4,
+                "traits": ["8-bit", "Rapidfire"]
+            },
+            {
+                "name": "lucian",
+                "displayName": "Lucian",
+                "cost": 5,
+                "traits": ["Jazz", "Rapidfire"]
+            }
+        ]
+    },
+    "punk": {
+        "name": "punk",
+        "displayName": "Punk",
+        "traitDescription": "Punks gain bonus Health and Attack Damage, which increases by 1% every time you spend gold on a Shop reroll.<br/>\n            <br/>\n            After Punks fight in combat, your Ist Shop reroll costs 1 gold and grants 3% bonus instead!",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "170.0 <img src=\"general/stats/health.png\"/> and 17% <img src=\"general/stats/attack_damage.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "280.0 <img src=\"general/stats/health.png\"/> and 28% <img src=\"general/stats/attack_damage.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "420.0 <img src=\"general/stats/health.png\"/> and 42% <img src=\"general/stats/attack_damage.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "jinx",
+                "displayName": "Jinx",
+                "cost": 1,
+                "traits": ["Punk", "Rapidfire"]
+            },
+            {
+                "name": "vi",
+                "displayName": "Vi",
+                "cost": 1,
+                "traits": ["Punk", "Mosher"]
+            },
+            {
+                "name": "pantheon",
+                "displayName": "Pantheon",
+                "cost": 2,
+                "traits": ["Punk", "Guardian"]
+            },
+            {
+                "name": "twitch",
+                "displayName": "Twitch",
+                "cost": 2,
+                "traits": ["Punk", "Executioner"]
+            }
+        ]
+    },
+    "dazzler": {
+        "name": "dazzler",
+        "displayName": "Dazzler",
+        "traitDescription": "Dazzlers' Abilities reduce their target's damage by 15% and deal bonus magic damage over 2 seconds.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "<span class=\"magicDamage\">20%</span> magic damage"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "<span class=\"magicDamage\">60%</span> magic damage"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "<span class=\"magicDamage\">100%</span> magic damage"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "nami",
+                "displayName": "Nami",
+                "cost": 1,
+                "traits": ["Disco", "Dazzler"]
+            },
+            {
+                "name": "bard",
+                "displayName": "Bard",
+                "cost": 2,
+                "traits": ["Jazz", "Dazzler"]
+            },
+            {
+                "name": "lux",
+                "displayName": "Lux",
+                "cost": 3,
+                "traits": ["EDM", "Dazzler"]
+            },
+            {
+                "name": "twistedfate",
+                "displayName": "Twisted Fate",
+                "cost": 4,
+                "traits": ["Disco", "Dazzler"]
+            },
+            {
+                "name": "ziggs",
+                "displayName": "Ziggs",
+                "cost": 5,
+                "traits": ["Hyperpop", "Dazzler"]
+            }
+        ]
+    },
+    "heartsteel": {
+        "name": "heartsteel",
+        "displayName": "Heartsteel",
+        "traitDescription": "Earn Hearts by killing enemies. Gain even more by losing player combat. Every 3 player combats, convert Hearts into powerful rewards!",
+        "intervals": [
+            [{ "count": 3, "text": "1.0x Hearts" }],
+            [{ "count": 5, "text": "2.5x Hearts" }],
+            [{ "count": 7, "text": "6.0x Hearts" }],
+            [{ "count": 10, "text": "10.0x Hearts" }]
+        ],
+        "champions": [
+            {
+                "name": "ksante",
+                "displayName": "K'Sante",
+                "cost": 1,
+                "traits": ["Heartsteel", "Sentinel"]
+            },
+            {
+                "name": "aphelios",
+                "displayName": "Aphelios",
+                "cost": 2,
+                "traits": ["Heartsteel", "Rapidfire"]
+            },
+            {
+                "name": "sett",
+                "displayName": "Sett",
+                "cost": 3,
+                "traits": ["Heartsteel", "Bruiser", "Mosher"]
+            },
+            {
+                "name": "yone",
+                "displayName": "Yone",
+                "cost": 3,
+                "traits": ["Heartsteel", "Edgekill", "Crowd Diver"]
+            },
+            {
+                "name": "ezreal",
+                "displayName": "Ezreal",
+                "cost": 4,
+                "traits": ["Heartsteel", "Big Shot"]
+            },
+            {
+                "name": "kayn",
+                "displayName": "Kayn",
+                "cost": 5,
+                "traits": ["Heartsteel", "Edgelord", "Wildcard"]
+            }
+        ]
+    },
+    "bruiser": {
+        "name": "bruiser",
+        "displayName": "Bruiser",
+        "traitDescription": "Your team gains 100 Health. Bruisers gain bonux max Health.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "20% max <img src=\"general/stats/health.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "45% max <img src=\"general/stats/health.png\"/>"
+                }
+            ],
+            [
+                {
+                    "count": 6,
+                    "text": "85% max <img src=\"general/stats/health.png\"/>"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "olaf",
+                "displayName": "Olaf",
+                "cost": 1,
+                "traits": ["Pentakill", "Bruiser"]
+            },
+            {
+                "name": "tahmkench",
+                "displayName": "Tahm Kench",
+                "cost": 1,
+                "traits": ["Country", "Bruiser"]
+            },
+            {
+                "name": "gragas",
+                "displayName": "Gragas",
+                "cost": 2,
+                "traits": ["Disco", "Spellweaver", "Bruiser"]
+            },
+            {
+                "name": "sett",
+                "displayName": "Sett",
+                "cost": 3,
+                "traits": ["Heartsteel", "Bruiser", "Mosher"]
+            },
+            {
+                "name": "zac",
+                "displayName": "Zac",
+                "cost": 4,
+                "traits": ["EDM", "Bruiser"]
+            },
+            {
+                "name": "illaoi",
+                "displayName": "Illaoi",
+                "cost": 5,
+                "traits": ["ILLBEATS", "Bruiser"]
+            }
+        ]
+    },
+    "jazz": {
+        "name": "jazz",
+        "displayName": "Jazz",
+        "traitDescription": "For each active trait (except uniques), your team gains bonus Health and deals bonus damage.",
+        "intervals": [
+            [
+                {
+                    "count": 2,
+                    "text": "1% <img src=\"general/stats/health.png\"/>, 1% damage"
+                }
+            ],
+            [
+                {
+                    "count": 3,
+                    "text": "2% <img src=\"general/stats/health.png\"/>, 1% damage"
+                }
+            ],
+            [
+                {
+                    "count": 4,
+                    "text": "3% <img src=\"general/stats/health.png\"/>, 2% damage"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "bard",
+                "displayName": "Bard",
+                "cost": 2,
+                "traits": ["Jazz", "Dazzler"]
+            },
+            {
+                "name": "missfortune",
+                "displayName": "Miss Fortune",
+                "cost": 3,
+                "traits": ["Jazz", "Big Shot"]
+            },
+            {
+                "name": "lucian",
+                "displayName": "Lucian",
+                "cost": 5,
+                "traits": ["Jazz", "Rapidfire"]
+            }
+        ]
+    },
+    "edm": {
+        "name": "edm",
+        "displayName": "EDM",
+        "traitDescription": "Use the EDM selector item to choose an EDM champion and see the frequency for each.<br/>\n            <br/>\n            At the selected champion's frequency, your EDM champions cast the selected Ability with modified effectiveness.",
+        "intervals": [
+            [{ "count": 2, "text": "0.800000011920929% effectiveness" }],
+            [{ "count": 3, "text": "0.8999999761581421% effectiveness" }],
+            [{ "count": 4, "text": "1.0% effectiveness, -1.0 seconds" }],
+            [
+                {
+                    "count": 5,
+                    "text": "1.2000000476837158% effectiveness, -2.0 seconds"
+                }
+            ]
+        ],
+        "champions": [
+            {
+                "name": "jax",
+                "displayName": "Jax",
+                "cost": 2,
+                "traits": ["EDM", "Mosher"]
+            },
+            {
+                "name": "lux",
+                "displayName": "Lux",
+                "cost": 3,
+                "traits": ["EDM", "Dazzler"]
+            },
+            {
+                "name": "zac",
+                "displayName": "Zac",
+                "cost": 4,
+                "traits": ["EDM", "Bruiser"]
+            },
+            {
+                "name": "zed",
+                "displayName": "Zed",
+                "cost": 4,
+                "traits": ["EDM", "Crowd Diver"]
+            }
+        ]
+    }
+}

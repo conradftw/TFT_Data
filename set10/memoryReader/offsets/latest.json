@@ -1,30 +1,30 @@
 {
-  "LocalPlayer": "0x2306400",
-  "ViewProjMatrices": "0x2356C00",
-  "HeroList": "0x22E8108",
-  "MinionList": "0x22EB470",
+  "LocalPlayer": "0x231A658",
+  "ViewProjMatrices": "0x236B830",
+  "HeroList": "0x22FB570",
+  "MinionList": "0x22FE948",
 
   "pList": "0x8",
   "ListSize": "0x10",
   "LolStrLength": "0x10",
   "LolStrMaxLength": "0x18",
 
-  "HudInstance": "0x22E7FF0",
+  "HudInstance": "0x22FB458",
   "HudInstance_Camera": "0x18", 
   "HudInstance_CameraX": "0x10", 
   "HudInstance_CameraY": "0x18", 
   "HudInstance_Camera_Yaw": "0x1B0", 
 
-  "Renderer": "0x235FCE8",
+  "Renderer": "0x2374918",
   "RendererWidth": "0xC", 
   "RendererHeight": "0x10", 
 
   "ObjIndex": "0x10",
   "ObjTeam": "0x3C",
-  "ObjName1": "0x43F8",
+  "ObjName1": "0x43F0",
   "ObjName2": "0x60",
-  "ObjName3": "0x43D8",
-  "ObjLvl": "0x4E20",
+  "ObjName3": "0x43D0",
+  "ObjLvl": "0x4E18",
   "ObjPos": "0x220",
   "ObjHealth": "0x11E0",
   "ObjMaxHealth": "0x1208",
@@ -46,7 +46,7 @@
   "BuffArrayStart": "0x0",
   "BuffArrayEnd": "0x8",
 
-  "CharData": "0x4130",
+  "CharData": "0x4128",
   "CharDataData": "0x28",
   "HPBarHeight": "0xC4",
   "BaseHealth": "0xB0",
@@ -57,7 +57,7 @@
   "BaseAttackSpeed": "0x254",
   "BaseRange": "0x250",
 
-  "HudShopBase": "0x231EBC8",
+  "HudShopBase": "0x23331A8",
   "HudShopBase1": "0x258",
   "HudShopBase2": "0xCD8",
   "HudShopFirstUnit": "0x308",
@@ -66,20 +66,20 @@
   "HudShopUnitNameLength": "0x10",
   "HudShopUnitSpacing": "0x350",
 
-  "StageStr": "0x231EBD0",
+  "StageStr": "0x23331B0",
   "StageStr1": "0x2B8",
   "StageStr2": "0x0",
   "StageStr3": "0xA8",
   "StageStr4": "0x0",
 
-  "TraitsList": "0x231EBE8",
+  "TraitsList": "0x23331C8",
   "TraitsList1": "0x98",
   "TraitObj": "0x138",
   "TraitObjStr": "0x8",
   "TraitObjStrLength": "0x10",
   "TraitCount": "0x140",
 
-  "TFTGameTime": "0x230E8A0",
+  "TFTGameTime": "0x2322C28",
   "TFTGameTime1": "0x28",
   "TFTGameTime2": "0x3C"
 }
